@@ -2,8 +2,8 @@
 
 ## ⚠️ Before You Begin
 
-**Check Firmware Version**: This driver is based on Robot Kit firmware v1.22.0.
-- Recommended version: v1.20.0 or higher
+**Check Firmware Version**: This driver is based on Robot Kit firmware v6.5.2
+- Recommended version: v6.5.2
 - Firmware update required if version is too low
 - Version automatically displayed in logs when driver runs
 
