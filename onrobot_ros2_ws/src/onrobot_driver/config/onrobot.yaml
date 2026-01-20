@@ -1,0 +1,21 @@
+onrobot_node:
+  ros__parameters:
+    # Robot Kit (Compute Box) network configuration
+    robot_ip: "192.168.1.1"
+    robot_port: 502
+    
+    # Device address
+    # 65 (0x41) - Quick Changer or HEX-E/H QC
+    # 66 (0x42) - Dual Quick Changer Primary
+    # 67 (0x43) - Dual Quick Changer Secondary
+    # 165 (0xA5) - Lift100
+    device_address: 65
+    
+    # Gripper type
+    # Supported: rg2, rg6, rg2ft, vg10, vgc10, vgp20, vgp30, 
+    #            mg10, sg, 2fg7, 2fg14, 2fgp20, 3fg15, 3fg25,
+    #            lift100, hex, screwdriver, sander
+    gripper_type: "rg2"
+    
+    # Update rate (Hz)
+    update_rate: 50

@@ -1,0 +1,6 @@
+# Request
+bool calibrate_all  # If true, calibrate all components
+---
+# Response
+bool success
+string message

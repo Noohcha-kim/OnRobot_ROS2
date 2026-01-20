@@ -1,0 +1,7 @@
+# Request
+string mode  # Mode name (e.g., "external", "internal", "flexible")
+float32[] parameters  # Mode-specific parameters
+---
+# Response
+bool success
+string message

@@ -1,0 +1,7 @@
+# Request
+# (empty)
+---
+# Response
+bool success
+onrobot_msgs/GripperStatus status
+string message
