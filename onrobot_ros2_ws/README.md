@@ -32,28 +32,21 @@ ros2 launch onrobot_driver onrobot.launch.py
 
 ### Grippers
 - **RG2/RG6** - 2-finger electric gripper
-- **RG2-FT** - Gripper with integrated Force/Torque sensor
 - **2FG7/2FG14/2FGP20** - 2-finger flexible gripper
 - **3FG15/3FG25** - 3-finger gripper
-- **SG** - Soft gripper
 - **VG10/VGC10** - Vacuum gripper (2 channels)
 - **VGP20** - Vacuum gripper (4 channels)
-- **VGP30** - Vacuum gripper (2 channels, high performance)
 - **MG10** - Magnetic gripper
 
-### Other Equipment
-- **HEX-E/H QC** - Force/Torque sensor
-- **Lift100** - Vertical lift
-- **Eyes** - Vision system
-- **Screwdriver** - Electric screwdriver
-- **Sander** - Sander
+
 
 ## System Requirements
 
 - Ubuntu 22.04 (Jammy Jellyfish)
-- ROS2 Humble or later
-- C++17 or later
-- Python 3.8 or later
+- ROS2 Humble
+- C++17 
+- Python 3.12 
+- Robot kit ver 6.5 or later
 
 ## Installation
 
@@ -437,5 +430,5 @@ Please submit bug reports and feature requests to GitHub Issues.
 
 ## Contact
 
-- Developer: [your.email@example.com]
+- Developer: minseung2201@gmail.com
 - Company: OnRobot A/S
